@@ -1,24 +1,16 @@
 body {
+  
     background-color: black;
-  }
-  
-  h1 {
-    color: black;
-    margin-left: 20px;
-  }
+}
 
-  button {
-
+button {
 
     color: white;
-  
-  
-  }
 
-  p {
+}
 
+p {
 
-    color: white;
-  
-  
-  }
+  color: white;
+
+}
