@@ -6,7 +6,17 @@ document.getElementById('4').style.textAlign = 'center';
 x = 0
 
 function myFunction(element, color) {
-    element.style.color = color;
-    x += 1
-    alert(x)
+
+    if (color == 1) {
+
+      alert(color)
+
+    }
+
+    else {
+
+      alert(color * 2)
+
+    }
+    
   }
