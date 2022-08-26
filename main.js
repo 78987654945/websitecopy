@@ -15,7 +15,7 @@ function myFunction(element, color) {
 
     elif (color == 2) {
 
-    alert(69)
+      alert(69)
 
     }
 
