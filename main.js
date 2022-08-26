@@ -13,6 +13,12 @@ function myFunction(element, color) {
 
     }
 
+    elif (color == 2) {
+
+    alert(69)
+
+    }
+
     else {
 
       alert(color * 2)
