@@ -16,8 +16,8 @@ x9 = 0
 function myFunction(element, color) {
 
     if (color == 1) {
-
-      alert(color)
+      x1 += 1
+      alert(x1)
 
     }
 
