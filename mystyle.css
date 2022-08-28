@@ -1,13 +1,21 @@
-body {
-
-  background-color: black;
-}
-
 button {
 
-    font-size: 80px;
-    font-family: Arial;
     padding: 40px;
+    font-size: 80px;
     cursor: pointer;
 
 }
+
+
+
+header{
+  color: white;
+}
+
+body{
+  background-color: black;
+
+  text-align:center;
+  
+}
+

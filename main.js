@@ -1,6 +1,3 @@
-document.getElementById('div1').style.textAlign = 'center';
-document.getElementById('div2').style.textAlign = 'center';
-document.getElementById('div3').style.textAlign = 'center';
 
 x=0
 button1_num=0
@@ -12,19 +9,37 @@ button6_num=0
 button7_num=0
 button8_num=0
 button9_num=0
+button1_col=''
+button2_col=''
+button3_col=''
+button4_col=''
+button5_col=''
+button6_col=''
+button7_col=''
+button8_col=''
+button9_col=''
+
+function myFunction2(){
+
+    if (button1_col == 'blue' && button2_col == 'blue' && button3_col == 'blue' || button4_col == 'blue' && button5_col == 'blue' && button6_col == 'blue' || button7_col == 'blue' && button8_col == 'blue' && button9_col == 'blue'|| button1_col == 'blue' && button4_col == 'blue' && button7_col == 'blue' || button2_col == 'blue' && button5_col == 'blue' && button8_col == 'blue' || button3_col == 'blue' && button6_col == 'blue' && button9_col == 'blue' || button1_col == 'blue' && button5_col == 'blue' && button9_col == 'blue' || button3_col == 'blue' && button5_col == 'blue' && button7_col == 'blue'){
+      alert('yes')
+    }
+
+}
 
 function myFunction(button_number){
-
 
   if (button_number == 1){
     if (button1_num == 0){
       if (x%2==0){
         document.getElementById('button1').style.background = "#00FFFF";
         x+=1
+        button1_col='blue'
       }
       else{
         document.getElementById('button1').style.background = "#FF0000";
         x-=1
+        button1_col='red'
       }
       button1_num+=1
     }
@@ -35,10 +50,12 @@ function myFunction(button_number){
       if (x%2==0){
         document.getElementById('button2').style.background = "#00FFFF";
         x+=1
+        button2_col='blue'
       }
       else{
         document.getElementById('button2').style.background = "#FF0000";
         x-=1
+        button2_col='red'
       }
     }
     button2_num+=1
@@ -49,10 +66,12 @@ function myFunction(button_number){
       if (x%2==0){
         document.getElementById('button3').style.background = "#00FFFF";
         x+=1
+        button3_col='blue'
       }
       else{
         document.getElementById('button3').style.background = "#FF0000";
         x-=1
+        button3_col='red'
       }
     }
     button3_num+=1
@@ -63,10 +82,12 @@ function myFunction(button_number){
       if (x%2==0){
         document.getElementById('button4').style.background = "#00FFFF";
         x+=1
+        button4_col='blue'
       }
       else{
         document.getElementById('button4').style.background = "#FF0000";
         x-=1
+        button4_col='red'
       }
     }
     button4_num+=1
@@ -77,10 +98,12 @@ function myFunction(button_number){
       if (x%2==0){
         document.getElementById('button5').style.background = "#00FFFF";
         x+=1
+        button5_col='blue'
       }
       else{
         document.getElementById('button5').style.background = "#FF0000";
         x-=1
+        button5_col='red'
       }
     }
     button5_num+=1
@@ -91,10 +114,12 @@ function myFunction(button_number){
       if (x%2==0){
         document.getElementById('button6').style.background = "#00FFFF";
         x+=1
+        button6_col='blue'
       }
       else{
         document.getElementById('button6').style.background = "#FF0000";
         x-=1
+        button6_col='red'
       }
     }
     button6_num+=1
@@ -105,10 +130,12 @@ function myFunction(button_number){
       if (x%2==0){
         document.getElementById('button7').style.background = "#00FFFF";
         x+=1
+        button7_col='blue'
       }
       else{
         document.getElementById('button7').style.background = "#FF0000";
         x-=1
+        button7_col='red'
       }
     }
     button7_num+=1
@@ -119,10 +146,12 @@ function myFunction(button_number){
       if (x%2==0){
         document.getElementById('button8').style.background = "#00FFFF";
         x+=1
+        button8_col='blue'
       }
       else{
         document.getElementById('button8').style.background = "#FF0000";
         x-=1
+        button8_col='red'
       }
     }
     button8_num+=1
@@ -133,10 +162,12 @@ function myFunction(button_number){
       if (x%2==0){
         document.getElementById('button9').style.background = "#00FFFF";
         x+=1
+        button9_col='blue'
       }
       else{
         document.getElementById('button9').style.background = "#FF0000";
         x-=1
+        button9_col='red'
       }
     }
     button9_num+=1
