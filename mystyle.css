@@ -1,29 +1,13 @@
 body {
 
-    background-color: black;
+  background-color: black;
 }
 
 button {
 
-    color: white;
     font-size: 80px;
     font-family: Arial;
     padding: 40px;
-
-}
-
-p {
-
-  color: white;
-  font-size: 80px;
-  font-family: Arial;
-
-}
-
-p2 {
-
-  color: black;
-  font-size: 80px;
-  font-family: Arial;
+    cursor: pointer;
 
 }
