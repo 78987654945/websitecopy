@@ -24,10 +24,9 @@ function myFunction2(){
     if (button1_col == 'blue' && button2_col == 'blue' && button3_col == 'blue' || button4_col == 'blue' && button5_col == 'blue' && button6_col == 'blue' || button7_col == 'blue' && button8_col == 'blue' && button9_col == 'blue'|| button1_col == 'blue' && button4_col == 'blue' && button7_col == 'blue' || button2_col == 'blue' && button5_col == 'blue' && button8_col == 'blue' || button3_col == 'blue' && button6_col == 'blue' && button9_col == 'blue' || button1_col == 'blue' && button5_col == 'blue' && button9_col == 'blue' || button3_col == 'blue' && button5_col == 'blue' && button7_col == 'blue'){
       alert('blue wins')
     }
-
     else if (button1_col == 'red' && button2_col == 'red' && button3_col == 'red' || button4_col == 'red' && button5_col == 'red' && button6_col == 'red' || button7_col == 'red' && button8_col == 'red' && button9_col == 'red'|| button1_col == 'red' && button4_col == 'red' && button7_col == 'red' || button2_col == 'red' && button5_col == 'red' && button8_col == 'red' || button3_col == 'red' && button6_col == 'red' && button9_col == 'red' || button1_col == 'red' && button5_col == 'red' && button9_col == 'red' || button3_col == 'red' && button5_col == 'red' && button7_col == 'red'){
-      alert('red wins')
-    }
+      alert('red wins')}
+    
 
 }
 
