@@ -2,8 +2,9 @@ button {
 
     height: 80px;
     width: 80px;
-    padding: 0px;
-    margin: 0px;
+    padding: none;
+    border: none;
+    background: white;
     
 
 }
