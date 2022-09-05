@@ -2,22 +2,33 @@ button {
 
     height: 80px;
     width: 80px;
-    padding: none;
     border: none;
     background: white;
-    
 
 }
 
 header{
+
   color: white;
   font-size: 44px;
+
 }
 
-body{
-  background-color: black;
+html {
 
-  text-align:center;
+  display: table;
+  margin: auto;
+  height: 100%;
+
+}
+
+body {
+
+  display: table-cell;
+  vertical-align: middle;
+  background-color: black;
+  text-align: center;
+  height: 100%;
   
 }
 
