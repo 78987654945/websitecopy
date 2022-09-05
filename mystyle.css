@@ -2,10 +2,11 @@ button {
 
     height: 80px;
     width: 80px;
+    padding: 0px;
+    margin: 0px;
+    
 
 }
-
-
 
 header{
   color: white;
