@@ -1,14 +1,16 @@
 button {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border: none;
     background: grey;
+    cursor: pointer;
 }
 
 header{
   color: white;
   font-size: 108px;
   text-align: center;
+  
 }
 
 html {
@@ -23,4 +25,14 @@ body {
   background-color: black;
   text-align: center;
   height: 100%;
+  vertical-align: text-top;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+}
+
+a {
+  color: grey;
+  text-decoration:none;
+  font-size: 60px;
 }
