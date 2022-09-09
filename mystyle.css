@@ -1,34 +1,26 @@
 button {
-
-    height: 80px;
-    width: 80px;
+    height: 200px;
+    width: 200px;
     border: none;
-    background: white;
-
+    background: grey;
 }
 
 header{
-
   color: white;
-  font-size: 44px;
-
+  font-size: 108px;
+  text-align: center;
 }
 
 html {
-
   display: table;
   margin: auto;
   height: 100%;
-
 }
 
 body {
-
   display: table-cell;
   vertical-align: middle;
   background-color: black;
   text-align: center;
   height: 100%;
-  
 }
-
