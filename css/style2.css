@@ -12,7 +12,7 @@ a {
 }
 
 #welcome {
-    color: white;
+    color: grey;
 }
 
 #menu {
@@ -37,20 +37,14 @@ p {
     color: white;
 }
 
-button {
-    height: 150px;
-    width: 150px;
-    border: none;
-    background: grey;
-    cursor: pointer;
-}
-
 #bodychange {
     padding-top: 92px;
-    align-items: center;
-    text-align: center;
 }
 
-#chicken {
-    padding-right: 102.23px;
+button {
+    background: black;
+}
+
+#audio {
+    align-items: center;
 }

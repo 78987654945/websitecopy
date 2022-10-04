@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+}
+
+a {
+    text-decoration:none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+
+}
+
+header {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+#standdiv {
+    font-size: 80px;
+}
+
+#dealdiv {
+    font-size: 80px;
+}
+
+#playerdiv {
+    color: white;
+    float: left;
+    padding-top: 73px;
+}
+
+#dealstanddiv {
+    padding-bottom: 18px;
+}
+
+#dealerdiv {
+    color: white;
+    float: left;
+    padding-top: 73px;
+}
+
+#card1div {
+    text-align: center;
+    text-align: center;
+    align-self: center;
+    float: center;
+    align-self: center;
+    align-content: center;
+}
+
+img {
+    background-color: white;
+}
+
+#coindiv {
+    text-align: center;
+}
+
+#arrow {
+    text-align: left;
+    vertical-align: center;
+}
