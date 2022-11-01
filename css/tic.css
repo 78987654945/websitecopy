@@ -1,0 +1,35 @@
+html,body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+    align-items: center;
+}
+
+a {
+    text-decoration:none; 
+    color: white;
+    font-size: 80px;
+    margin-left: 24px;
+    float: left;
+}
+
+button {
+    height: 150px;
+    width: 150px;
+    border: black 5px solid;
+    background: grey;
+    cursor: pointer;
+}
+
+#maindiv {
+    position: absolute;
+    width: 100%;
+}
+
+#div1 {
+    margin-top: 188px;
+}
