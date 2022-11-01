@@ -17,7 +17,6 @@ button6_col=''
 button7_col=''
 button8_col=''
 button9_col=''
-
 function myFunction2(){
     if (button1_col == 'blue' && button2_col == 'blue' && button3_col == 'blue' || button4_col == 'blue' && button5_col == 'blue' && button6_col == 'blue' || button7_col == 'blue' && button8_col == 'blue' && button9_col == 'blue'|| button1_col == 'blue' && button4_col == 'blue' && button7_col == 'blue' || button2_col == 'blue' && button5_col == 'blue' && button8_col == 'blue' || button3_col == 'blue' && button6_col == 'blue' && button9_col == 'blue' || button1_col == 'blue' && button5_col == 'blue' && button9_col == 'blue' || button3_col == 'blue' && button5_col == 'blue' && button7_col == 'blue'){
       document.getElementById('button1').style.background = "#347FCA";
@@ -48,7 +47,6 @@ function myFunction2(){
     }, 1000);
     }
 }
-
 function myFunction(button_number){
   if (button_number == 1){
     if (button1_num == 0){
@@ -65,7 +63,6 @@ function myFunction(button_number){
       button1_num+=1
     }
   }
-
   else if (button_number == 2){
     if (button2_num == 0){
       if (x%2==0){
@@ -81,7 +78,6 @@ function myFunction(button_number){
     }
     button2_num+=1
   }
-
   else if (button_number == 3){
     if (button3_num == 0){
       if (x%2==0){
@@ -97,7 +93,6 @@ function myFunction(button_number){
     }
     button3_num+=1
   }
-
   else if (button_number == 4){
     if (button4_num == 0){
       if (x%2==0){
@@ -113,7 +108,6 @@ function myFunction(button_number){
     }
     button4_num+=1
   }
-
   else if (button_number == 5){
     if (button5_num == 0){
       if (x%2==0){
@@ -129,7 +123,6 @@ function myFunction(button_number){
     }
     button5_num+=1
   }
-
   else if (button_number == 6){
     if (button6_num == 0){
       if (x%2==0){
@@ -145,7 +138,6 @@ function myFunction(button_number){
     }
     button6_num+=1
   }
-
   else if (button_number == 7){
     if (button7_num == 0){
       if (x%2==0){
@@ -161,7 +153,6 @@ function myFunction(button_number){
     }
     button7_num+=1
   }
-
   else if (button_number == 8){
     if (button8_num == 0){
       if (x%2==0){
@@ -177,7 +168,6 @@ function myFunction(button_number){
     }
     button8_num+=1
   }
-
   else if (button_number == 9){
     if (button9_num == 0){
       if (x%2==0){
