@@ -17,6 +17,9 @@ body {
     margin-left: 24px;
     float: left;
 }
+#a1:hover {
+    color: #96afe0;
+}
 #a2 {
     text-decoration:none;
     color: #96afe0;
@@ -24,6 +27,9 @@ body {
     font-size: 80px;
     margin-right: 104px;
     margin-top: 20px;
+}
+#a2:hover {
+    color: #fff;
 }
 #a3 {
     text-decoration:none;

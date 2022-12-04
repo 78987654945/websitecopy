@@ -10,6 +10,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 80px;
 }
+.b {
+    margin-top: 10px;
+}
 .arrow {
     text-decoration:none; 
     color: white;
@@ -17,6 +20,9 @@ body {
     margin-left: 24px;
     padding: 0;
     position: absolute;
+}
+.arrow:hover {
+    color: #96afe0;
 }
 button {
     border: none;
@@ -64,6 +70,10 @@ img {
     border-radius: 10px;
     padding-right: 16px;
     padding-left: 16px;
+}
+#b:hover,#b2:hover {
+    color: #96afe0;
+    border: solid #96afe0 2px;
 }
 #div_dealer {
     text-align: center;

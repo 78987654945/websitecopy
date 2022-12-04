@@ -2,13 +2,11 @@ html,body {
     margin: 0;
     height: 100%;
 }
-
 body {
     background-color: black;
     text-align: center;
     align-items: center;
 }
-
 a {
     text-decoration:none; 
     color: white;
@@ -16,7 +14,9 @@ a {
     margin-left: 24px;
     float: left;
 }
-
+#a1:hover {
+    color: #96afe0;
+}
 button {
     height: 150px;
     width: 150px;
@@ -24,12 +24,10 @@ button {
     background: grey;
     cursor: pointer;
 }
-
 #maindiv {
     position: absolute;
     width: 100%;
 }
-
 #div1 {
     margin-top: 188px;
 }
