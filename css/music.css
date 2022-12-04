@@ -6,7 +6,7 @@ body {
     background-color: black;
     text-align: center;
 }
-a {
+a#a_1 {
     text-decoration:none; 
     color: white;
     font-size: 80px;
@@ -24,3 +24,16 @@ a {
     text-align: center;
     position: absolute;
 }
+
+#new {
+    background-color: #000;
+}
+
+a,p {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    margin-left: 24px;
+    
+}
+
