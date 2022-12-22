@@ -77,12 +77,7 @@ function change(num){
             image.src = img;
             document.getElementById("check").innerHTML = dealervalue;
             document.getElementById("check2").innerHTML = playervalue;
-        }    
-        }                 
-        }           
-        }     
-        }
-        }
+        }}}}}}
     }   
     if (num == 0 && standcheck==0) {
         img = '';
