@@ -12,13 +12,13 @@ function run2() {
     round += 1
     createlist(round);
     show(round);
-    check();
+    setTimeout(check,1800);
 }
 function clicked(num) {
     if (clear == 1) {
         green(num);
         createlist2(num);
-        check();
+        setTimeout(check,1800);
     }
 }
 function red(check) {
@@ -26,7 +26,7 @@ function red(check) {
     setTimeout(white,500,check);
 }
 function white(yup) {
-    document.getElementById(mylist[yup]).style.backgroundColor = "grey";
+    document.getElementById(mylist[yup]).style.backgroundColor = "#808080";
     round_check += 1
     if (round==round_check) {
         clear += 1
@@ -46,7 +46,7 @@ function noborder(yuppp) {
         document.getElementById("_" + yuppp.toString()).style.border = "none";
     }
     if (window.innerWidth < 768) {
-        document.getElementById("_" + yuppp.toString()).style.backgroundColor = "grey"
+        document.getElementById("_" + yuppp.toString()).style.backgroundColor = "#808080"
     }
 }
 function show(num2) {
