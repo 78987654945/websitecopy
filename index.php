@@ -1,22 +1,15 @@
 <!DOCTYPE html>
-<html>
-<script src="js/center.js"></script>
-<link rel="stylesheet" href="css/index.css">
-<title>niamod</title>
-<body onload=run(180)>
-    <div id="maindiv">
-        <div>
-            <a id="welcome">niamod.org</a>
-        </div>
-        <div>
-            <a href="html/games">games</a>
-        </div>
-        <div>
-            <a href="html/music">music</a>
-        </div>
-        <div>
-            <a href="html/github">github</a>
-        </div>
-    </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+        echo "hello<br>\n";
+        echo "date is";
+    ?>
 </body>
 </html>
